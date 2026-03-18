@@ -67,7 +67,8 @@ SELECT
 FROM customer c
 LEFT JOIN orders o
 ON c.customer_id = o.customer_id
-ORDER BY o.ord_date ASC;```
+ORDER BY o.ord_date ASC;
+```
 
 **Output:**
 
@@ -86,7 +87,8 @@ SELECT
 FROM patients p
 INNER JOIN test_results t
 ON p.patient_id = t.patient_id
-WHERE p.admission_date BETWEEN '2024-01-01' AND '2024-01-31';```
+WHERE p.admission_date BETWEEN '2024-01-01' AND '2024-01-31';
+```
 
 **Output:**
 
